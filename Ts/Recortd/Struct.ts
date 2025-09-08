@@ -35,5 +35,9 @@ const estudiantes: Persona[] = [persona2, persona3, persona4, persona5]
 console.log("Recorrido del arreglo")
 
 for (let i of estudiantes) {
-   console.log("Nombre: " + i.nombre + "Edad:  " + i.edad + "Promedio:  " + i.promedio)
+   console.log("Nombre:  " + i.nombre + "   Edad:  " + i.edad + "   Promedio:  " + i.promedio)
 }
+
+// Cambiar el promedio del segundo estudiante
+estudiantes[1].promedio = 5.0;
+console.log(estudiantes[1]);
