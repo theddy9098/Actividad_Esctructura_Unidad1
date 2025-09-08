@@ -18,4 +18,13 @@ class Estudiante {
 }
 
 const estudiante1 = new Estudiante("Pedro", 25, 4.7)
-estudiante1.mostrainfo()
+const estudiante2 = new Estudiante("Maria", 28, 4.9)
+const estudiante3 = new Estudiante("Luis", 22, 4.3)
+const estudiante4 = new Estudiante("Ana", 27, 4.8)
+
+
+const arregloEstudiantes: Estudiante[] = [estudiante1, estudiante2, estudiante3, estudiante4]
+
+for (let i of arregloEstudiantes) {
+    i.mostrainfo()
+}
