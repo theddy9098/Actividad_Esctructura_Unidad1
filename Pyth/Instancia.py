@@ -17,3 +17,6 @@ estudiantes = [Estu1, Estu2, Estu3]
 
 for i in estudiantes:
     print(f"Nombre: {i.nombre}, Edad: {i.edad}, Promedio: {i.promedio}")
+
+estudiantes[0].promedio = 5
+print(estudiantes[0])
